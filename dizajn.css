@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:arial,sans-serif;
+	text-align:center;
+	background:rgb(255, 252, 244)
+}
+h1{
+	font-size:50px;
+	color:rgb(116,7,14);
+}
+h2{
+	color:rgb(78,104,19);
+	background-color:rgb(210,231,186);
+}
+@font-face {
+    font-family:"LanaHutinski";
+	src:url("LanaHutinski.ttf");
+	}
+nav{
+	ul {	padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			} 
+	li {	display:inline;
+			background-color:rgb(108,156,98);
+			padding:20px;
+			border-radius: 10px;
+		}
+	li:hover {background-color:rgb(210,231,186);} 
+	li a {	color:white; 
+			font-family: "Arial"; 
+	        }		
+	li a:link {text-decoration:none;}
+}
+p{
+	font-size:110%;
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 800px;
+	text-align: justify;
+}
+lol{
+	background-color:rgb(116,7,14);
+	padding:10px;
+}
